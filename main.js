@@ -41,7 +41,15 @@ map.addControl(
   new BasemapControl(basemaps, {
     defaultBasemap,
   }),
-  "bottom-right"
+  "top-right"
+);
+// Adding url controller
+map.addControl(
+  new WebsiteControl({
+    url: "https://github.com/berkayoruc/maplibre-change-basemap",
+    iconClass: "github",
+  }),
+  "top-right"
 );
 
 map.on("load", mapLoad);

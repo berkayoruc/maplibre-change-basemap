@@ -9,3 +9,26 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+button.maplibregl-ctrl-github {
+  background-image: url("assets/img/GitHub-Mark-32px.png");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+}
+
+.click-there {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 10%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  height: 19px;
+  padding: 5px;
+  position: absolute;
+  right: 49px;
+  top: 10px;
+  width: fit-content;
+  z-index: 156;
+}
