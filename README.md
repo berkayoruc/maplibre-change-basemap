@@ -1,2 +1,2 @@
 # Change Basemap
-Maplibre ( Mapbox ) change basemap without removing other layers
+Maplibre ( Mapbox ) change raster basemap without removing other layers
